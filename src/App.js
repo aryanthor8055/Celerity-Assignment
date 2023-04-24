@@ -1,12 +1,8 @@
 import "./App.css";
-import Header from "./components/Header";
+import SearchForm from "./pages/SearchForm";
 
 function App() {
-  return (
-    <div className="App">
-      <Header />
-    </div>
-  );
+  return <SearchForm />;
 }
 
 export default App;
